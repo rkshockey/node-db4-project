@@ -6,6 +6,8 @@ exports.seed = async function (knex) {
     { ingredient_name: 'rolled oats' },
     { ingredient_name: 'milk' },
     { ingredient_name: 'honey' },
-    { ingredient_name: 'cinnamon' }
+    { ingredient_name: 'cinnamon' },
+    { ingredient_name: 'butter' },
+    { ingredient_name: 'sugar' }
   ])
 }
