@@ -4,6 +4,8 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
+    "up": "knex migrate:up",
+    "down": "knex migrate:down",
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "repository": {
